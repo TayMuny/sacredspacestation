@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SacredSpaceStation™</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="cosmic-gate" class="tri-gate">
+    <h1>SaraisSacredSpaceStation™</h1>
+    <h2>Khaos2KlarityKw’adratiqKonquestKartographicKoordinates™</h2>
+    <button id="enter-btn">ENTER THE STATION</button>
+  </div>
+
+  <div id="navigation-matrix" class="hidden">
+
+    <!-- STAR MAP MODE -->
+    <section id="star-map" class="nav-mode">
+      <h3>Star‑Map Navigation</h3>
+      <canvas id="starCanvas"></canvas>
+    </section>
+
+    <!-- TRIANGULAR GEOMETRY MODE -->
+    <section id="tri-geometry" class="nav-mode">
+      <h3>Triangular Geometry Navigation</h3>
+      <div class="triangle-grid"></div>
+    </section>
+
+    <!-- ORBITAL NODE MODE -->
+    <section id="orbital-nodes" class="nav-mode">
+      <h3>Orbital Node Navigation</h3>
+      <div id="orbit-system"></div>
+    </section>
+
+    <!-- COSMIC CORRIDOR MODE -->
+    <section id="cosmic-corridor" class="nav-mode">
+      <h3>Cosmic Corridor Navigation</h3>
+      <div class="corridor"></div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
