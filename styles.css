@@ -1,0 +1,36 @@
+body {
+  background: radial-gradient(circle at center, #0a0a0f, #000000);
+  color: #e0e0ff;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+}
+
+.tri-gate {
+  margin-top: 15vh;
+  animation: rotateGate 20s linear infinite;
+}
+
+@keyframes rotateGate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+button {
+  padding: 12px 28px;
+  background: #6a4dfc;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.nav-mode {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 1px solid #444;
+}
